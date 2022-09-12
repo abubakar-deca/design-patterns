@@ -7,6 +7,8 @@ public class ComputerFactory {
         } else if ("server".equals(type)) {
             return new Server(cpu, ram, hdd);
         }
+
+        System.out.println("Git testing in ComputerFactory");
         return null;
     }
 }
