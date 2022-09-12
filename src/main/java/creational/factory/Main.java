@@ -51,6 +51,7 @@ public class Main {
                 "4 ----> 1 TB");
         scanner.nextLine();
         num = scanner.nextInt();
+        System.out.println("Git testing in ComputerFactory");
         String hdd = "";
 
         switch (num) {
